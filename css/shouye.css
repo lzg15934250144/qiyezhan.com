@@ -1,0 +1,479 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background: #ededed;
+}
+/*头部开始*/
+.tou{
+    width: 100%;
+    height: 76px;
+    background: #000;
+}
+.tounk{
+    width: 1220px;
+    height: 76px;
+    /*background: deeppink;*/
+    margin: 0 auto;
+}
+.touimg{
+    width: 180px;
+    height: 60px;
+    /*background:#fff;*/
+    float:left;
+    margin-top: 7px;
+}
+.znss{
+    font-size: 14px;
+    color: #c8c8c8;
+    margin-right: 66px;
+}
+.touyou{
+    float:right;
+    margin-top: 24px;
+}
+.hyzx{
+    font-size: 14px;
+    color: #c8c8c8;
+}
+.znss:hover{
+    color:#fff;
+}
+.hyzx:hover{
+    color:#fff;
+}
+/*菜单栏开始*/
+.cdl{
+    width: 100%;
+    height: 61px;
+    /*background:deeppink;*/
+}
+.cdlnk{
+    width: 1220px;
+    height: 61px;
+    /*background: red;*/
+    margin: 0 auto;
+}
+.cdlbox{
+    width: 528px;
+    height: 61px;
+    /*background: aqua;*/
+}
+.cdlbox li{
+    margin-left: 44px;
+    float:left;
+    line-height: 61px;
+}
+.cdlbox li a:hover{
+    color:dodgerblue;
+}
+.cdlbox li:first-child{
+    margin-left:0px;
+}
+.cdlbox li a{
+    font-size: 14px;
+    color: #666666;
+}
+.cdlbox li:nth-child(1) a{
+    font-weight: bold;
+}
+.rxgs{
+    position: relative;
+}
+.rxgsbox{
+    width: 160px;
+    height:0px;
+    border-radius: 5px;
+    background: #fff;
+    position: absolute;
+    top:61px;
+    left:-30px;
+    overflow: hidden;
+    box-shadow: 0 0 010px rgba(0,0,0,0.5);
+    transition: all 1s;
+    z-index: 999;
+}
+.rxgsbox div{
+    line-height: 44px;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+.rxgsbox div:hover{
+    background:#ededed;
+}
+.rxxl{
+    position: relative;
+}
+.rxxlbox{
+    width: 160px;
+    height:0px;
+    border-radius: 5px;
+    background: #fff;
+    position: absolute;
+    top:61px;
+    left:-30px;
+    overflow: hidden;
+    box-shadow: 0 0 010px rgba(0,0,0,0.5);
+    transition: all 1s;
+    z-index: 999;
+}
+.rxxlbox div{
+    line-height: 44px;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+.rxxlbox div:hover{
+    background:#ededed;
+}
+.jfhl{
+    position: relative;
+}
+.jfhlbox{
+    width: 160px;
+    height:0px;
+    border-radius: 5px;
+    background: #fff;
+    position: absolute;
+    top:61px;
+    left:-30px;
+    overflow: hidden;
+    box-shadow: 0 0 010px rgba(0,0,0,0.5);
+    transition: all 1s;
+    z-index: 999;
+}
+.jfhlbox div{
+    line-height: 44px;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+.jfhlbox div:hover{
+    background:#ededed;
+}
+/*banner开始*/
+.bannerz{
+    width: 100%;
+    height: 500px;
+    /*background: pink;*/
+}
+.banner{
+    width: 1220px;
+    height: 500px;
+    margin: 0 auto;
+    /*background: black;*/
+    position: relative;
+}
+.banner li{
+    width: 1220px;
+    height: 500px;
+    position: absolute;
+    top: 0;
+    left:0;
+}
+.banner li img{
+    width: 1220px;
+    height: 500px;
+}
+.lbd{
+    width: 100px;
+    height: 10px;
+    /*background: black;*/
+    position: absolute;
+    top: 460px;
+    left:540px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 20;
+}
+.lbd div{
+    width: 10px;
+    height: 10px;
+    background:#fff;
+    border-radius: 50%;
+}
+.lbd div.hot{
+    background: aquamarine;
+}
+/*热门开始*/
+.remen{
+    width: 100%;
+    height: 502px;
+    /*background: pink;*/
+    margin-top: 76px;
+}
+.remennk{
+    width: 1218px;
+    height: 502px;
+    /*background:aquamarine;*/
+    margin: 0 auto;
+    border-radius: 5px;
+    border:1px solid #ccc;
+    /*overflow: hidden;*/
+}
+.rementop{
+    width:1218px;
+    height: 71px;
+    /*background: dodgerblue;*/
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    position: relative;
+}
+.rmsp{
+    font-size: 24px;
+    color:#676767;
+    margin-left: 39px;
+    padding-top: 10px;
+}
+.re{
+    color:#676767;
+    margin-left: 39px;
+}
+.zuoan{
+    width: 45px;
+    height: 45px;
+    border:1px solid #ccc;
+    border-radius: 5px;
+    line-height: 45px;
+    text-align: center;
+    position: absolute;
+    top:12px;
+    right:75px;
+}
+.youan{
+    width: 45px;
+    height: 45px;
+    border:1px solid #ccc;
+    border-radius: 5px;
+    line-height: 45px;
+    text-align: center;
+    position: absolute;
+    top:12px;
+    right:18px;
+}
+.remenbottom{
+    width: 1218px;
+    height: 429px;
+    /*background: deeppink;*/
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    overflow: hidden;
+}
+.remenlist{
+    width: 2440px;
+    transition:all 1s;
+}
+.sp{
+    width: 305px;
+    height: 429px;
+    background: #fff;
+    float:left;
+    transition: all 1s;
+}
+.sp:hover li{
+    transform:scale(0.8);
+}
+.sp img{
+    /*transition: all 1s;*/
+}
+.sp:hover{
+    box-shadow: 0px 0px 50px 1px rgba(0,0,0,0.2) inset;
+}
+.spbanner{
+    width: 304px;
+    height: 336px;
+    /*background: #c8c8c8;*/
+    position: relative;
+}
+.spbanner li{
+    margin-left: 70px;
+    width: 150px;
+    height: 336px;
+    background: #ffffff;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    transition: all 1s;
+}
+.spbanner li img{
+    height: 336px;
+}
+.sp h4{
+    font-size: 17px;
+    text-align: center;
+}
+.sp h6{
+    text-align: center;
+    color:#ccc;
+}
+.lbd2{
+    width: 40px;
+    height: 10px;
+    position: absolute;
+    top:315px;
+    left:129px;
+    z-index: 25;
+    display: flex;
+    justify-content: space-between;
+}
+.lbd2 div{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background:rgba(0,0,0,0.1);
+}
+.lbd2 div.hot1{
+    background: deeppink;
+}
+/*当季精选*/
+.dj{
+    width: 100%;
+    height: 992px;
+    /*background: deeppink;*/
+    margin-top: 75px;
+}
+.djnk{
+    width: 1220px;
+    height: 923px;
+    /*background: aquamarine;*/
+    margin: 0 auto;
+    border-radius: 5px;
+    overflow: hidden;
+    border:1px solid #ccc;
+}
+.ckgd{
+    width: 102px;
+    height: 36.4px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    text-align: center;
+    line-height: 36.4px;
+    float: right;
+    margin-top: -50px;
+    margin-right: 20px;
+}
+.djbottom{
+    width: 1218px;
+    height: 858px;
+    /*background: black;*/
+}
+.djimg{
+    width: 608px;
+    height: 428px;
+    float: left;
+}
+.djimg img{
+    width: 608px;
+    height: 428px;
+}
+/*底部开始*/
+.dibu{
+    width: 100%;
+    height:274px;
+    background: #fff;
+    overflow: hidden;
+}
+.dibunk{
+    width: 100%;
+    height:142px;
+    /*background: deeppink;*/
+    margin-top: 70px;
+}
+.dbnkl{
+    width: 814px;
+    height: 127px;
+    background: white;
+    float: left;
+    margin-left: 150px;
+}
+.dbnkr{
+    width:406px;
+    height: 141px;
+    /*background: black;*/
+    float: left;
+}
+.dubuul{
+    display: flex;
+    justify-content: space-around;
+}
+.dubuul li{
+    width: 131px;
+    height: 107px;
+    /*background: red;*/
+}
+.dubuul li div{
+    font-size: 17px;
+    color: #676767;
+    padding-bottom: 10px;
+}
+.dubuul li a{
+    font-size: 13px;
+    color:#969696;
+
+}
+.dubuul li a:hover{
+    color:blue;
+}
+.dbnkr h3{
+     font-size: 27px;
+     float:right;
+ }
+.dbnkr h6{
+    float:right;
+    margin-top: 50px;
+    margin-right: -195px;
+    color: #969696;
+}
+.zxly{
+    width: 130px;
+    height: 34px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    text-align: center;
+    line-height: 34px;
+    margin-top:80px ;
+    margin-left: 245px;
+}
+/*最底部*/
+.zuidb{
+    width: 100%;
+    height: 62.6px;
+    line-height: 62.6px;
+}
+.zuidbnk{
+    width: 1190px;
+    height:21.6px ;
+    margin: 0 auto;
+}
+.zuidbnk p{
+    font-size: 12px;
+    color: #757575;
+    float:left;
+}
+.zuidbnk p:last-child{
+    float:right;
+}
+.cdl1{
+    height:61px;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    background: #fff;
+    display: none;
+}
+.fanhui{
+    width: 54px;
+    height: 54px;
+    position: fixed;
+    bottom: 30px;
+    right:30px;
+    transition: all 1s;
+    display: none;
+}
+
+
+
+

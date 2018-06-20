@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background: #ededed;
+}
+/*头部开始*/
+.tou{
+    width: 100%;
+    height: 76px;
+    background: #000;
+}
+.tounk{
+    width: 1220px;
+    height: 76px;
+    /*background: deeppink;*/
+    margin: 0 auto;
+}
+.touimg{
+    width: 180px;
+    height: 60px;
+    /*background:#fff;*/
+    float:left;
+    margin-top: 7px;
+}
+.znss{
+    font-size: 14px;
+    color: #c8c8c8;
+    margin-right: 66px;
+}
+.touyou{
+    float:right;
+    margin-top: 24px;
+}
+.hyzx{
+    font-size: 14px;
+    color: #c8c8c8;
+}
+.znss:hover{
+    color:#fff;
+}
+.hyzx:hover{
+    color:#fff;
+}
+/*菜单栏开始*/
+.cdl{
+    width: 100%;
+    height: 61px;
+    /*background:deeppink;*/
+}
+.cdlnk{
+    width: 1220px;
+    height: 61px;
+    /*background: red;*/
+    margin: 0 auto;
+}
+.cdlbox{
+    width: 528px;
+    height: 61px;
+    /*background: aqua;*/
+}
+.cdlbox li{
+    margin-left: 44px;
+    float:left;
+    line-height: 61px;
+}
+.cdlbox li a:hover{
+    color:dodgerblue;
+}
+.cdlbox li:first-child{
+    margin-left:0px;
+}
+.cdlbox li a{
+    font-size: 14px;
+    color: #666666;
+}
+.cdlbox li:nth-child(2) a{
+    font-weight: bold;
+}
+.rxgs{
+    position: relative;
+}
+.rxgsbox{
+    width: 160px;
+    height:0px;
+    border-radius: 5px;
+    background: #fff;
+    position: absolute;
+    top:61px;
+    left:-30px;
+    overflow: hidden;
+    box-shadow: 0 0 010px rgba(0,0,0,0.5);
+    transition: all 1s;
+    z-index: 999;
+}
+.rxgsbox div{
+    line-height: 44px;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+.rxgsbox div:hover{
+    background:#ededed;
+}
+.rxxl{
+    position: relative;
+}
+.rxxlbox{
+    width: 160px;
+    height:0px;
+    border-radius: 5px;
+    background: #fff;
+    position: absolute;
+    top:61px;
+    left:-30px;
+    overflow: hidden;
+    box-shadow: 0 0 010px rgba(0,0,0,0.5);
+    transition: all 1s;
+    z-index: 999;
+}
+.rxxlbox div{
+    line-height: 44px;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+.rxxlbox div:hover{
+    background:#ededed;
+}
+.jfhl{
+    position: relative;
+}
+.jfhlbox{
+    width: 160px;
+    height:0px;
+    border-radius: 5px;
+    background: #fff;
+    position: absolute;
+    top:61px;
+    left:-30px;
+    overflow: hidden;
+    box-shadow: 0 0 010px rgba(0,0,0,0.5);
+    transition: all 1s;
+    z-index: 999;
+}
+.jfhlbox div{
+    line-height: 44px;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+.jfhlbox div:hover{
+    background:#ededed;
+}
+/*datu */
+
+.jsbj{
+    width: 1220px;
+    height: 5698px;
+    margin: 0 auto;
+    border-radius: 5px;
+    background: #fff;
+}
+.jsbj img{
+    width:1158px;
+    height: 5698px;
+}
+
+
+
+/*底部开始*/
+.dibu{
+    width: 100%;
+    height:274px;
+    background: #fff;
+    overflow: hidden;
+}
+.dibunk{
+    width: 100%;
+    height:142px;
+    /*background: deeppink;*/
+    margin-top: 70px;
+}
+.dbnkl{
+    width: 814px;
+    height: 127px;
+    background: white;
+    float: left;
+    margin-left: 150px;
+}
+.dbnkr{
+    width:406px;
+    height: 141px;
+    /*background: black;*/
+    float: left;
+}
+.dubuul{
+    display: flex;
+    justify-content: space-around;
+}
+.dubuul li{
+    width: 131px;
+    height: 107px;
+    /*background: red;*/
+}
+.dubuul li div{
+    font-size: 17px;
+    color: #676767;
+    padding-bottom: 10px;
+}
+.dubuul li a{
+    font-size: 13px;
+    color:#969696;
+
+}
+.dubuul li a:hover{
+    color:blue;
+}
+.dbnkr h3{
+    font-size: 27px;
+    float:right;
+}
+.dbnkr h6{
+    float:right;
+    margin-top: 50px;
+    margin-right: -195px;
+    color: #969696;
+}
+.zxly{
+    width: 130px;
+    height: 34px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    text-align: center;
+    line-height: 34px;
+    margin-top:80px ;
+    margin-left: 245px;
+}
+/*最底部*/
+.zuidb{
+    width: 100%;
+    height: 62.6px;
+    line-height: 62.6px;
+}
+.zuidbnk{
+    width: 1190px;
+    height:21.6px ;
+    margin: 0 auto;
+}
+.zuidbnk p{
+    font-size: 12px;
+    color: #757575;
+    float:left;
+}
+.zuidbnk p:last-child{
+    float:right;
+}
+.cdl1{
+    height:61px;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    background: #fff;
+    display: none;
+}
+.fanhui{
+    width: 54px;
+    height: 54px;
+    position: fixed;
+    bottom: 30px;
+    right:30px;
+    transition: all 1s;
+    display: none;
+}
