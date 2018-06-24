@@ -1,7 +1,7 @@
 *{
-    margin: 0;
-    padding: 0;
-    list-style: none;
+margin: 0;
+padding: 0;
+list-style: none;
 }
 a{
     text-decoration: none;
@@ -158,22 +158,70 @@ body{
 .jfhlbox div:hover{
     background:#ededed;
 }
-/*datu */
-
-.jsbj{
-    width: 758px;
-    height: 2000px;
-    margin: 0 auto;
-    border-radius: 5px;
+/*留言板*/
+.ly{
+    width:800px;
+    height:100%;
     background: #fff;
+    margin:0 auto;
+    margin-bottom: 50px;
+    padding: 30px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    position: relative;
 }
-.jsbj img{
-    width:691px;
-    height: 1983px;
-    margin-left: 31px;
-    margin-top: 31px;
+.ly input{
+    width: 738px;
+    height: 36px;
+    line-height: 36px;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+    box-sizing: border-box;
+    outline: none;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    font-size: 16px;
+    background: #fff;
+    color: #bcc2c8;
+    box-shadow: 0 3px 5px -4px rgba(0, 0, 0, 0.4) inset;
 }
-
+.ly button{
+    width: 738px;
+    height: 46px;
+    background: #4565b1;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-size:18px ;
+    color: #fff;
+    margin-top: 18px;
+}
+.ly textarea{
+    width: 738px;
+    height: auto;;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+    box-sizing: border-box;
+    outline: none;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    background: #fff;
+    box-shadow: 0 3px 5px -4px rgba(0, 0, 0, 0.4) inset,
+    font-size: 20px;
+    line-height: 36px;
+    resize: none;
+    color: #bcc2c8;
+}
+.yzm{
+    width: 200px;
+    height: 55px;
+    background: #fff;
+    position: absolute;
+    bottom: 110px;
+    right: 20px;
+    border:1px solid #ccc;
+    border-radius: 5px;
+}
 
 
 /*底部开始*/

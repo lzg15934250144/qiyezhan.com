@@ -83,7 +83,7 @@ body{
     font-size: 14px;
     color: #666666;
 }
-.cdlbox li:nth-child(2) a{
+.cdlbox li:nth-child(5) a{
     font-weight: bold;
 }
 .rxgs{
@@ -158,20 +158,80 @@ body{
 .jfhlbox div:hover{
     background:#ededed;
 }
-/*datu */
+/*新闻开始*/
+.xinwenz{
+    width: 100%;
+    height: 1000px;
 
-.jsbj{
-    width: 758px;
-    height: 2000px;
-    margin: 0 auto;
-    border-radius: 5px;
-    background: #fff;
 }
-.jsbj img{
-    width:691px;
-    height: 1983px;
-    margin-left: 31px;
-    margin-top: 31px;
+.xwnk{
+    width: 1220px;
+    height: 100%;
+    border-radius: 10px;
+    background: #fff;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.stou{
+    width: 100%;
+    height: 61px;
+    box-shadow: rgba(0, 0, 0, 0.06) 0 1px 7px;
+    background: linear-gradient(#fbfbfb, #eee);
+    border-bottom: 1px solid #d4d4d4;
+    border-radius: 8px 8px 0 0;
+    position: relative;
+    box-sizing: border-box;
+}
+.stou h2{
+    font-size: 18px;
+    margin-left: 30px;
+    font-weight: normal;
+    color: #333;
+    line-height: 60px;
+}
+.sousuo{
+    width:180px ;
+    height: 36px;
+    background: #008000;
+    line-height: 60px;
+    position: absolute;
+    top: 12px;
+    right: 20px;
+    border-radius: 8px
+}
+input{
+    display: block;
+    width:180px ;
+    height: 36px;
+    border-radius: 8px;
+    border: #ccc solid 1px;
+    box-shadow: 0 3px 5px -3px rgba(0, 0, 0, 0.4) inset;
+    border-radius: 8px;
+    outline: none;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+button{
+    position: absolute;
+    top: 8px;
+    right: 20px;
+    background: transparent;
+    border: none;
+}
+.xwt{
+    width:1200px;
+    height: 120px;
+    background: #3ab78f21;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 10px;
+    text-align: center;
+    transition: all 1s;
+    color: black;
+
+}
+.xwt:hover{
+    box-shadow: 0 0 30px 3px rgba(0,0,0,0.5);
 }
 
 
